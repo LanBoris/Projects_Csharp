@@ -1,0 +1,15 @@
+C:\Users\blano\OneDrive\Projects\Project_7\bin\Debug\net6.0\Project_7.exe
+C:\Users\blano\OneDrive\Projects\Project_7\bin\Debug\net6.0\Project_7.deps.json
+C:\Users\blano\OneDrive\Projects\Project_7\bin\Debug\net6.0\Project_7.runtimeconfig.json
+C:\Users\blano\OneDrive\Projects\Project_7\bin\Debug\net6.0\Project_7.dll
+C:\Users\blano\OneDrive\Projects\Project_7\bin\Debug\net6.0\Project_7.pdb
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.csproj.AssemblyReference.cache
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.AssemblyInfoInputs.cache
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.AssemblyInfo.cs
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.csproj.CoreCompileInputs.cache
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.dll
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\refint\Project_7.dll
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.pdb
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\Project_7.genruntimeconfig.cache
+C:\Users\blano\OneDrive\Projects\Project_7\obj\Debug\net6.0\ref\Project_7.dll
