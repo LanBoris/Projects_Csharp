@@ -1,4 +1,4 @@
-﻿// Поиск максимального элемента массива и его индекса.
+﻿// Поиск максимального и минимального элементов массива и их индексов.
 // Массив заполняется рандомно.
 
 Console.Clear();
@@ -40,6 +40,22 @@ int Max(int[] ar)
   return max;
 }
 
+int Min(int[] ar)
+{
+  int min=ar[0];
+  int lengarr=ar.Length;
+  int indd=0;
+  while (indd<lengarr)
+  {
+    if (ar[indd]<min)
+    {
+      min=ar[indd];
+    }
+    indd++;
+  }
+  return min;
+}
+
 int IndexOf(int[] ar, int find)
 {
   int count=ar.Length;
@@ -57,13 +73,17 @@ int IndexOf(int[] ar, int find)
   return position;
 }
 
-int[] array= new int[10];
+int[] array= new int[20];
 
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
 int maximum=Max(array);
 int pos=IndexOf(array, maximum);
+int minimum=Min(array);
+int poss=IndexOf(array, minimum);
 Console.WriteLine("Maximum = " + maximum);
 Console.WriteLine("Index of maximum = " + pos);
+Console.WriteLine("Minimum = " + minimum);
+Console.WriteLine("Index of minimum = " + poss);
 
