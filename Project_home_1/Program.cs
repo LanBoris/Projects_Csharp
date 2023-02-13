@@ -83,7 +83,10 @@ int pos = IndexOf(array, maximum);
 int minimum = Min(array);
 int poss = IndexOf(array, minimum);
 Console.WriteLine("Maximum = " + maximum);
+Console.ForegroundColor=ConsoleColor.Yellow;
 Console.WriteLine("Index of maximum = " + pos);
+Console.ForegroundColor=ConsoleColor.White;
 Console.WriteLine("Minimum = " + minimum);
+Console.ForegroundColor=ConsoleColor.Yellow;
 Console.WriteLine("Index of minimum = " + poss);
-
+Console.ForegroundColor=ConsoleColor.White;
