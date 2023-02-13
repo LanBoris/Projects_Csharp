@@ -11,9 +11,9 @@
 
 void PrintArray(int[] col)
 {
-  int count=col.Length;
-  int position=0;
-  while (position<count)
+  int count = col.Length;
+  int position = 0;
+  while (position < count)
   {
     Console.WriteLine(col[position]);
     position++;
@@ -23,15 +23,15 @@ void PrintArray(int[] col)
 
 int IndexOf(int[] collection, int find)
 {
-  int count =collection.Length;
-  int index=0;
-  int position=-1;
+  int count = collection.Length;
+  int index = 0;
+  int position = -1;
 
-  while (index<count)
+  while (index < count)
   {
-    if (collection[index]==find)
+    if (collection[index] == find)
     {
-      position=index;
+      position = index;
       break;
     }
     index++;
@@ -43,9 +43,7 @@ int[] array = new int[10];
 
 
 FillArray(array);
-array[4]=4;
-array[6]=4;
 PrintArray(array);
 Console.WriteLine();
-int pos = IndexOf(array,422);
+int pos = IndexOf(array, 422);
 Console.WriteLine(pos);
