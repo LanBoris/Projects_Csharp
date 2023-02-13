@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Enter your name:");
-string user = Console.ReadLine();
+string user = Console.ReadLine()!;
 
 if (user.ToLower() == "boris")
 {
