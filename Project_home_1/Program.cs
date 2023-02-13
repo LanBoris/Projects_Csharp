@@ -15,9 +15,9 @@ void FillArray(int[] ar)
 
 void PrintArray(int[] arr)
 {
-  int leng=arr.Length;
-  int inde=0;
-  while (inde<leng)
+  int leng = arr.Length;
+  int inde = 0;
+  while (inde < leng)
   {
     Console.Write(arr[inde] + " ");
     inde++;
@@ -26,14 +26,14 @@ void PrintArray(int[] arr)
 
 int Max(int[] ar)
 {
-  int max=0;
-  int lengar=ar.Length;
-  int index=0;
-  while (index<lengar)
+  int max = 0;
+  int lengar = ar.Length;
+  int index = 0;
+  while (index < lengar)
   {
-    if (ar[index]>max)
+    if (ar[index] > max)
     {
-      max=ar[index];
+      max = ar[index];
     }
     index++;
   }
@@ -42,14 +42,14 @@ int Max(int[] ar)
 
 int Min(int[] ar)
 {
-  int min=ar[0];
-  int lengarr=ar.Length;
-  int indd=0;
-  while (indd<lengarr)
+  int min = ar[0];
+  int lengarr = ar.Length;
+  int indd = 0;
+  while (indd < lengarr)
   {
-    if (ar[indd]<min)
+    if (ar[indd] < min)
     {
-      min=ar[indd];
+      min = ar[indd];
     }
     indd++;
   }
@@ -58,30 +58,30 @@ int Min(int[] ar)
 
 int IndexOf(int[] ar, int find)
 {
-  int count=ar.Length;
-  int innd=0;
-  int position=-1;
+  int count = ar.Length;
+  int innd = 0;
+  int position = -1;
 
-  while (innd<count)
+  while (innd < count)
   {
-    if (ar[innd]==find)
+    if (ar[innd] == find)
     {
-      position=innd;
+      position = innd;
     }
     innd++;
   }
   return position;
 }
 
-int[] array= new int[20];
+int[] array = new int[20];
 
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
-int maximum=Max(array);
-int pos=IndexOf(array, maximum);
-int minimum=Min(array);
-int poss=IndexOf(array, minimum);
+int maximum = Max(array);
+int pos = IndexOf(array, maximum);
+int minimum = Min(array);
+int poss = IndexOf(array, minimum);
 Console.WriteLine("Maximum = " + maximum);
 Console.WriteLine("Index of maximum = " + pos);
 Console.WriteLine("Minimum = " + minimum);
